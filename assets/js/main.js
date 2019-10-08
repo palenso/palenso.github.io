@@ -1,5 +1,8 @@
 var timerValue = 0;
 var timerValueTime = 9000;
+// star timer value
+var starTimerValue = 0;
+var starTimerValueTime = 9000;
 
 function changeTimerValue(index) {
   timerValue = index;
@@ -42,4 +45,43 @@ function timerLoop() {
   }
 }
 
+function starActiveAndDeactive(index) {
+  console.log(index);
+  if (index > 0) {
+    document
+      .getElementsByClassName("palenso-flex-item-circle")
+      [index - 1].classList.remove("active");
+    document
+      .getElementsByClassName("palenso-stars")
+      [index - 1].classList.remove("active");
+  }
+  if (index === 0) {
+    document
+      .getElementsByClassName("palenso-flex-item-circle")[4]
+      .classList.remove("active");
+    document
+      .getElementsByClassName("palenso-stars")[4]
+      .classList.remove("active");
+  }
+  document
+    .getElementsByClassName("palenso-flex-item-circle")
+    [index].classList.add("active");
+  document
+    .getElementsByClassName("palenso-stars")
+    [index].classList.add("active");
+}
+
+function starTimerLoop() {
+  console.log(starTimerValue);
+  starActiveAndDeactive(starTimerValue);
+  starTimerValue = starTimerValue + 1;
+  if (starTimerValue >= 5) {
+    starTimerValue = 0;
+  }
+  if (starTimerValue >= 0) {
+    setTimeout(starTimerLoop, starTimerValueTime);
+  }
+}
+
 timerLoop();
+starTimerLoop();

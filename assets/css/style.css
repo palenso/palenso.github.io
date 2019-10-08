@@ -536,6 +536,14 @@ body {
   -webkit-animation: reverseSpin 20s linear infinite;
   animation: reverseSpin 20s linear infinite;
 }
+.palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-1.active,
+.star-2.active,
+.star-3.active,
+.star-4.active,
+.star-5.active {
+  border-color: #3b95ff;
+  color: #3b95ff;
+}
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-1 {
   top: 0;
   left: 45%;
@@ -612,6 +620,14 @@ body {
   justify-content: center;
   align-items: center;
   font-weight: 900;
+}
+.palenso-how-we-do-it-container
+  .palenso-how-we-do-it-right-container
+  .palenso-right-flex-container
+  .palenso-right-flex-item
+  .palenso-flex-item-circle.active {
+  border-color: #3b95ff;
+  color: #3b95ff;
 }
 .palenso-how-we-do-it-container
   .palenso-how-we-do-it-right-container
