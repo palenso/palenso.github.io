@@ -19,6 +19,79 @@ body {
   font-weight: 400;
 }
 
+.form-container {
+  background-image: url(https://www.able.do/hero-bg.f506d184-3da79b29.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
+  background-size: auto 100%;
+  background-blend-mode: soft-light;
+  background-color: #2f2091;
+  padding: 40px 60px;
+  ;
+  border-radius: 10px;
+}
+
+.section-content {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-head {
+  font-size: 3rem;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.rounded {
+  border-radius: .25rem;
+}
+
+.border-whitea-100 {
+  border-color: hsla(0, 0%, 100%, .1) !important;
+}
+
+.bg-blacka-100 {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+label {
+  font-size: .875rem;
+  color: #fff;
+  opacity: .5;
+  margin-bottom: 0px;
+}
+
+.text-field-height {
+  height: 250px;
+}
+
+.form-button {
+  background-color: #222136;
+  padding: 10px 20px;
+  color: #fffa96;
+  border: none;
+}
+
+.text-blue {
+  color: #90cdf4;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.white {
+  color: white !important;
+}
+
 .palenso-heading {
   font-size: 28px;
   font-weight: 600;
