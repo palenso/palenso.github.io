@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700");
-
-html,
-body {
+html, body {
   /* Adjust font size */
   -webkit-text-size-adjust: 100%;
   /* Font varient */
@@ -15,36 +13,43 @@ body {
   -webkit-font-smoothing: antialiased;
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+
 .palenso-heading {
   font-size: 28px;
   font-weight: 600;
   color: #000;
 }
+
 .palenso-description {
   font-size: 20px;
   font-weight: 400;
   color: rgb(62, 62, 62);
 }
+
 .palenso-sub-heading {
   font-size: 20px;
   font-weight: 500;
   color: #000;
 }
+
 .palenso-sub-description {
   font-size: 16px;
   font-weight: 400;
   color: rgb(62, 62, 62);
 }
+
 .global-section-padding {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 /* root colcors */
+
 :root {
   --primary-color: #101353;
   --primary-dark-color: #3b4965;
@@ -56,70 +61,64 @@ body {
 }
 
 /* custom buttons */
+
 .btn-primary {
   padding: 7px 21px;
   border-radius: 2px;
   font-weight: 500;
   border: none;
 }
-.btn-primary:active,
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:focus-within {
+
+.btn-primary:active, .btn-primary:hover, .btn-primary:focus, .btn-primary:focus-within {
   border: 0;
   outline: 0;
   box-shadow: 0 0 0px transparent;
 }
-.btn-primary:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
   background: var(--primary-dark-color);
 }
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0px transparent;
 }
+
 /* secondary button */
+
 .btn-secondary {
   padding: 7px 21px;
   border-radius: 2px;
   font-weight: 500;
   border: none;
 }
-.btn-secondary:active,
-.btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:focus-within {
+
+.btn-secondary:active, .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:focus-within {
   border: 0;
   outline: 0;
   box-shadow: 0 0 0px transparent;
 }
-.btn-secondary:not(:disabled):not(.disabled).active,
-.btn-secondary:not(:disabled):not(.disabled):active,
-.show > .btn-secondary.dropdown-toggle {
-}
-.btn-secondary:not(:disabled):not(.disabled).active:focus,
-.btn-secondary:not(:disabled):not(.disabled):active:focus,
-.show > .btn-secondary.dropdown-toggle:focus {
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
   box-shadow: 0 0 0px transparent;
 }
+
 /* button */
-.btn,
-.btn:hover,
-.btn:active,
-.btn:focus,
-.btn:focus-within {
+
+.btn, .btn:hover, .btn:active, .btn:focus, .btn:focus-within {
   border: 0;
   outline: 0;
   box-shadow: 0px 0px 0px transparent;
   text-transform: uppercase;
 }
+
 .btn-lg {
   padding: 10px 36px;
   font-size: 1.2rem;
   line-height: 1.5;
 }
+
 .btn-round {
   padding: 7px 28px;
   border-top-left-radius: 30px;
@@ -129,6 +128,7 @@ body {
 }
 
 /* navabr */
+
 .nav-transparent {
   background: transparent;
   position: absolute;
@@ -137,6 +137,7 @@ body {
   color: #fff;
   padding: 20px;
 }
+
 .navbar-brand {
   margin: 0px 20px;
   font-family: "Nunito", sans-serif;
@@ -144,24 +145,27 @@ body {
   font-size: 28px;
   letter-spacing: 1.5px;
 }
+
 .nav-item-border-li a span {
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 2.5px;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px;
+  text-transform: lowercase;
 }
+
 .text-white {
   color: white;
 }
+
 .navbar-collapse {
   padding: 0px 20px;
 }
-.navbar-toggler,
-.navbar-toggler:hover,
-.navbar-toggler:active,
-.navbar-toggler:focus-within {
+
+.navbar-toggler, .navbar-toggler:hover, .navbar-toggler:active, .navbar-toggler:focus-within {
   border: 0;
   outline: 0;
 }
+
 @media (max-width: 991px) {
   .navbar-brand {
     margin: 0px 0px;
@@ -174,6 +178,7 @@ body {
     margin: 0px;
   }
 }
+
 .nav-item-border {
   border-bottom: 2px solid transparent;
   width: 0%;
@@ -182,12 +187,14 @@ body {
   transition-property: width;
   transition-duration: 0.5s;
 }
+
 .nav-item-border-li:hover .nav-item-border {
   width: 100%;
   border-bottom: 2px solid white;
 }
 
 /* footer */
+
 .palenso-footer-container {
   font-size: 14px;
   color: #535b62;
@@ -196,6 +203,7 @@ body {
   -webkit-box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.1);
   box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.1);
 }
+
 .palenso-footer-logo-container {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
@@ -203,41 +211,52 @@ body {
   letter-spacing: 1.5px;
   color: #000;
 }
+
 .palenso-footer-description {
   padding-top: 15px;
 }
+
 .palenso-footer-company-details {
   padding-top: 20px;
 }
+
 .footer-link-header {
   font-weight: 600;
   padding-bottom: 10px;
 }
+
 .footer-link {
   padding-top: 2px;
   padding-bottom: 2px;
 }
+
 .footer-link:hover {
   color: var(--dark-color);
   cursor: pointer;
 }
+
 .footer-socail-icons {
   padding-top: 7px;
 }
+
 .footer-socail-icons a {
   color: #535b62;
 }
+
 .footer-socail-icons a:hover {
   color: #000000;
 }
+
 .footer-socail-icons i {
   font-size: 20px;
   padding-top: 10px;
   margin-left: 10px;
 }
+
 .footer-socail-icons .first {
   margin-left: 0px !important;
 }
+
 @media (max-width: 991px) {
   .footer-link-header {
     padding-top: 15px;
@@ -248,32 +267,52 @@ body {
 }
 
 /* index page */
+
 /* hero section */
+
 .palenso-index-hero-container {
   min-height: 550px;
   height: 100vh;
   background: #000;
 }
+
 .palenso-index-hero-left-container {
   padding: 50px;
 }
+
 .palenso-index-hero-left-container .palenso-heading {
   color: #fff;
   font-size: 38px;
   padding-bottom: 10px;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
 }
+
 .palenso-index-hero-left-container .palenso-description {
   color: #f5f5f5b9;
   font-size: 22px;
+  font-weight: 300;
 }
+
+.hero-btn-text {
+  color: black;
+  text-transform: capitalize;
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #1565C0, #b92b27 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
 .palenso-index-hero-right-container {
   background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .palenso-index-hero-right-container img {
   width: 70%;
   height: 70%;
@@ -281,16 +320,19 @@ body {
   -webkit-animation: spin 20s linear infinite;
   animation: spin 20s linear infinite;
 }
+
 @-moz-keyframes spin {
   100% {
     -moz-transform: rotate(360deg);
   }
 }
+
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
   }
 }
+
 @keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
@@ -314,22 +356,26 @@ body {
 }
 
 /* what we do section */
+
 .palenso-what-we-do-container {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .palenso-what-we-do-container .palenso-what-we-do-flex-container {
   display: flex;
   flex-direction: row;
 }
+
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item {
   width: 47%;
 }
+
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a {
   position: relative;
   text-decoration: none;
   display: block;
-  padding: 10px 15px;
+  padding: 15px 20px;
   border-radius: 5px;
   overflow: hidden;
   margin-top: 10px;
@@ -341,41 +387,36 @@ body {
   transition: box-shadow 0.4s;
   box-shadow: 0 2px 5px 0 rgba(32, 33, 36, 0.05), 0 2px 5px 0 rgba(0, 0, 0, 0.205);
 }
+
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a:hover {
   box-shadow: 0 2px 5px 0 rgba(32, 33, 36, 0.05), 0 5px 10px 0 rgba(0, 0, 0, 0.205);
 }
+
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a.active {
-  background: #000;
+  /* background: #000; */
 }
-.palenso-what-we-do-container
-  .palenso-what-we-do-flex-container
-  .palenso-what-we-do-flex-item
-  a.active
-  .palenso-sub-description {
-  color: #fff !important;
+
+.palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a .palenso-sub-heading {
+  font-size: 18px;
 }
-.palenso-what-we-do-container
-  .palenso-what-we-do-flex-container
-  .palenso-what-we-do-flex-item
-  .palenso-what-we-do-image-container {
-  width: 70px;
-  height: 70px;
+
+.palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a.active .palenso-sub-heading {
+  color: #000 !important;
+}
+
+.palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item .palenso-what-we-do-image-container {
+  width: 60px;
+  height: 60px;
   margin-bottom: 15px;
 }
-.palenso-what-we-do-container
-  .palenso-what-we-do-flex-container
-  .palenso-what-we-do-flex-item
-  .palenso-what-we-do-image-container
-  img {
+
+.palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item .palenso-what-we-do-image-container img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.palenso-what-we-do-container
-  .palenso-what-we-do-flex-container
-  .palenso-what-we-do-flex-item
-  a
-  .palenso-what-we-do-timescroll {
+
+.palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a .palenso-what-we-do-timescroll {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -385,26 +426,27 @@ body {
   height: 4px;
   border-radius: 5px;
 }
-.palenso-what-we-do-container
-  .palenso-what-we-do-flex-container
-  .palenso-what-we-do-flex-item
-  a.active
-  .palenso-what-we-do-timescroll {
+
+.palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a.active .palenso-what-we-do-timescroll {
   transition: width 10s;
   width: 100%;
 }
+
 /* why us section */
+
 .palenso-why-us-container {
   padding-top: 20px;
   padding-bottom: 20px;
   background: #fafafa;
 }
+
 .palenso-why-us-container .palenso-why-us-flex-container {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .palenso-why-us-container .palenso-why-us-flex-container .palenso-why-us-flex-item {
   width: 100%;
   padding: 10px 20px;
@@ -415,25 +457,76 @@ body {
   overflow: hidden;
   background: #fff;
 }
+
+.numbers {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.number-gradient {
+  color: black;
+  text-transform: capitalize;
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #1565C0, #b92b27 10%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.g1 {
+  background: -webkit-linear-gradient(45deg, #1565C0, #b92b27 10%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.g1 {
+  background: -webkit-linear-gradient(45deg, #1565C0, #b92b27 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.g3 {
+  background: -webkit-linear-gradient(45deg, #1565C0, #b92b27 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.g4 {
+  background: -webkit-linear-gradient(45deg, #1565C0, #b92b27 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.g5 {
+  background: -webkit-linear-gradient(45deg, #1565C0, #b92b27 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .palenso-why-us-container .palenso-why-us-flex-container .palenso-why-us-flex-item:first-child {
   margin-left: 0px;
 }
+
 .palenso-why-us-container .palenso-why-us-flex-container .palenso-why-us-flex-item:last-child {
   margin-right: 0px;
 }
+
 .palenso-why-us-container .palenso-why-us-flex-container .palenso-why-us-flex-item:hover {
   box-shadow: 0 2px 5px 0 rgba(32, 33, 36, 0.05), 0 5px 10px 0 rgba(0, 0, 0, 0.205);
 }
+
 .palenso-why-us-container .palenso-why-us-flex-container .palenso-why-us-flex-item .palenso-why-us-image-container {
   width: 55%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .palenso-why-us-container .palenso-why-us-flex-container .palenso-why-us-flex-item .palenso-why-us-image-container img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
+
 @media (max-width: 767px) {
   .palenso-why-us-container .palenso-why-us-flex-container {
     flex-wrap: wrap;
@@ -461,27 +554,34 @@ body {
     margin-left: 0px;
   }
 }
+
 /* how we work section */
+
 .palenso-how-we-work-container {
   min-height: 100vh;
 }
+
 .palenso-how-we-work-container .palenso-how-we-work-image-container img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
 }
+
 .palenso-how-we-work-container .palenso-how-we-work-right-container {
   padding-left: 70px;
   padding-right: 70px;
 }
+
 .palenso-how-we-work-container .palenso-how-we-work-right-container ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .palenso-how-we-work-container .palenso-how-we-work-right-container ul li {
   width: 50%;
 }
+
 @media (max-width: 767px) {
   .palenso-how-we-work-container .palenso-how-we-work-right-container {
     padding-top: 30px;
@@ -497,12 +597,15 @@ body {
     margin-left: 30px;
   }
 }
+
 /* how we do it section */
+
 .palenso-how-we-do-it-container {
   padding-top: 20px;
   padding-bottom: 20px;
   background: #fafafa;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container {
   width: 85%;
   position: relative;
@@ -514,15 +617,13 @@ body {
   -webkit-animation: spin 20s linear infinite;
   animation: spin 20s linear infinite;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container i {
   font-size: 40vh;
   font-weight: normal;
 }
-.palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-1,
-.star-2,
-.star-3,
-.star-4,
-.star-5 {
+
+.palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-1, .star-2, .star-3, .star-4, .star-5 {
   border: 5px solid #000;
   width: 50px;
   height: 50px;
@@ -536,34 +637,37 @@ body {
   -webkit-animation: reverseSpin 20s linear infinite;
   animation: reverseSpin 20s linear infinite;
 }
-.palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-1.active,
-.star-2.active,
-.star-3.active,
-.star-4.active,
-.star-5.active {
+
+.palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-1.active, .star-2.active, .star-3.active, .star-4.active, .star-5.active {
   border-color: #3b95ff;
   color: #3b95ff;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-1 {
   top: 0;
   left: 45%;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-2 {
   top: 36%;
   right: 0;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-3 {
   bottom: 0;
   left: 74%;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-4 {
   bottom: 0;
   left: 15%;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-5 {
   top: 36%;
   left: 0;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-description {
   position: absolute;
   -webkit-animation: reverseSpin 20s linear infinite;
@@ -572,45 +676,54 @@ body {
   text-align: center;
   font-size: 16px;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-description .star-highlight {
   font-weight: 900;
   font-size: 26px;
 }
+
+.star-background {
+  background: -webkit-gradient(linear, left top, left bottom, from(#009FFF), to(#ec2F4B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+  /* reset Font Awesome's display:inline-block */
+}
+
 @-moz-keyframes reverseSpin {
   100% {
     -moz-transform: rotate(-360deg);
   }
 }
+
 @-webkit-keyframes reverseSpin {
   100% {
     -webkit-transform: rotate(-360deg);
   }
 }
+
 @keyframes reverseSpin {
   100% {
     -webkit-transform: rotate(-360deg);
     transform: rotate(-360deg);
   }
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-it-right-container {
   padding: 20px 20px;
 }
+
 .palenso-how-we-do-it-container .palenso-how-we-do-it-right-container .palenso-right-flex-container {
   display: flex;
   flex-direction: row;
 }
-.palenso-how-we-do-it-container
-  .palenso-how-we-do-it-right-container
-  .palenso-right-flex-container
-  .palenso-right-flex-item {
+
+.palenso-how-we-do-it-container .palenso-how-we-do-it-right-container .palenso-right-flex-container .palenso-right-flex-item {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.palenso-how-we-do-it-container
-  .palenso-how-we-do-it-right-container
-  .palenso-right-flex-container
-  .palenso-right-flex-item
-  .palenso-flex-item-circle {
+
+.palenso-how-we-do-it-container .palenso-how-we-do-it-right-container .palenso-right-flex-container .palenso-right-flex-item .palenso-flex-item-circle {
   border: 5px solid #000;
   width: 50px;
   height: 50px;
@@ -621,39 +734,41 @@ body {
   align-items: center;
   font-weight: 900;
 }
-.palenso-how-we-do-it-container
-  .palenso-how-we-do-it-right-container
-  .palenso-right-flex-container
-  .palenso-right-flex-item
-  .palenso-flex-item-circle.active {
+
+.palenso-how-we-do-it-container .palenso-how-we-do-it-right-container .palenso-right-flex-container .palenso-right-flex-item .palenso-flex-item-circle.active {
   border-color: #3b95ff;
   color: #3b95ff;
 }
-.palenso-how-we-do-it-container
-  .palenso-how-we-do-it-right-container
-  .palenso-right-flex-container
-  .palenso-right-flex-item:last-child {
+
+.palenso-how-we-do-it-container .palenso-how-we-do-it-right-container .palenso-right-flex-container .palenso-right-flex-item:last-child {
   padding-left: 15px;
 }
+
 @media (max-width: 767px) {
   .palenso-how-we-do-it-container .palenso-how-we-do-star-container {
     width: 100%;
   }
 }
+
 /* who are we section */
+
 .palenso-who-are-we-container {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .palenso-who-are-we-container .palenso-who-are-we-image-container {
   height: 250px;
 }
+
 .palenso-who-are-we-container .palenso-who-are-we-image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 /* call to action */
+
 .palenso-call-to-action-container {
   background: #000;
   padding-top: 20px;
