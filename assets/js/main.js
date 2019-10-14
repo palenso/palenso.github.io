@@ -13,10 +13,10 @@ function activeAndDeactive(index) {
   if (index > 0) {
     document
       .getElementsByClassName("palenso-nav-tab-item")
-      [index - 1].classList.remove("active");
+    [index - 1].classList.remove("active");
     document
       .getElementsByClassName("palenso-nav-tab-content")
-      [index - 1].classList.remove("show", "active");
+    [index - 1].classList.remove("show", "active");
   }
   if (index === 0) {
     document
@@ -28,10 +28,10 @@ function activeAndDeactive(index) {
   }
   document
     .getElementsByClassName("palenso-nav-tab-item")
-    [index].classList.add("active");
+  [index].classList.add("active");
   document
     .getElementsByClassName("palenso-nav-tab-content")
-    [index].classList.add("show", "active");
+  [index].classList.add("show", "active");
 }
 
 function timerLoop() {
@@ -50,10 +50,10 @@ function starActiveAndDeactive(index) {
   if (index > 0) {
     document
       .getElementsByClassName("palenso-flex-item-circle")
-      [index - 1].classList.remove("active");
+    [index - 1].classList.remove("active");
     document
       .getElementsByClassName("palenso-stars")
-      [index - 1].classList.remove("active");
+    [index - 1].classList.remove("active");
   }
   if (index === 0) {
     document
@@ -65,10 +65,10 @@ function starActiveAndDeactive(index) {
   }
   document
     .getElementsByClassName("palenso-flex-item-circle")
-    [index].classList.add("active");
+  [index].classList.add("active");
   document
     .getElementsByClassName("palenso-stars")
-    [index].classList.add("active");
+  [index].classList.add("active");
 }
 
 function starTimerLoop() {
@@ -85,3 +85,6 @@ function starTimerLoop() {
 
 timerLoop();
 starTimerLoop();
+
+
+
