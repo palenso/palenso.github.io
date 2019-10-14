@@ -30,12 +30,13 @@ body {
   background-size: auto 100%;
   background-blend-mode: soft-light;
   background-color: #2f2091;
+  /* background-color: #fff; */
   padding: 40px 60px;
   border-radius: 10px;
 }
 
 .form-container .form-control {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .section-content {
@@ -63,17 +64,17 @@ body {
 
 .bg-blacka-100 {
   background-color: rgba(0, 0, 0, 0.1) !important;
+  background-color: #fff !important;
 }
 
 .bg-transparent {
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 label {
   font-size: 0.875rem;
   color: #fff;
-  opacity: 0.5;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .text-field-height {
@@ -289,6 +290,14 @@ label {
 .navbar.solid .navbar-brand {
   color: #000;
   transition: color 1s ease 0s;
+}
+
+.navbar.solid .navbar-collapse {
+  padding: 0px 15px;
+  background: #fff;
+}
+.navbar.solid .navbar-toggle-icon {
+  color: #000;
 }
 
 .navbar.solid .nav-link {
@@ -910,6 +919,50 @@ label {
 @media (max-width: 767px) {
   .palenso-how-we-do-it-container .palenso-how-we-do-star-container {
     width: 100%;
+  }
+  .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-description {
+    /* animation-play-state: paused; */
+    animation-name: none;
+  }
+  .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-1,
+  .star-2,
+  .star-3,
+  .star-4,
+  .star-5 {
+    /* animation-play-state: paused; */
+    animation-name: none;
+  }
+  .palenso-how-we-do-it-container .palenso-how-we-do-star-container {
+    /* animation-play-state: paused; */
+    animation-name: none;
+  }
+  .palenso-how-we-do-it-container .palenso-how-we-do-star-container i {
+    font-size: 25vh;
+    font-weight: normal;
+  }
+  .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-1 {
+    top: 0;
+    left: 45%;
+  }
+
+  .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-2 {
+    top: 36%;
+    right: 12%;
+  }
+
+  .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-3 {
+    bottom: 0;
+    left: 64%;
+  }
+
+  .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-4 {
+    bottom: 0;
+    left: 26%;
+  }
+
+  .palenso-how-we-do-it-container .palenso-how-we-do-star-container .star-5 {
+    top: 36%;
+    left: 12%;
   }
 }
 
