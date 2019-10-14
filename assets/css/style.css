@@ -481,7 +481,8 @@ label {
 }
 
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item {
-  width: 47%;
+  width: 45%;
+  min-height: 200px;
 }
 
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a {
@@ -499,6 +500,7 @@ label {
   height: 94%;
   transition: box-shadow 0.4s;
   box-shadow: 0 2px 5px 0 rgba(32, 33, 36, 0.05), 0 2px 5px 0 rgba(0, 0, 0, 0.205);
+  text-align: center !important;
 }
 
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a:hover {
@@ -507,6 +509,11 @@ label {
 
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a.active {
   /* background: #000; */
+}
+
+.palenso-sub-description-why {
+  line-height: 2;
+  font-size: 20px;
 }
 
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item a .palenso-sub-heading {
@@ -521,6 +528,9 @@ label {
   width: 60px;
   height: 60px;
   margin-bottom: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .palenso-what-we-do-container .palenso-what-we-do-flex-container .palenso-what-we-do-flex-item .palenso-what-we-do-image-container img {
@@ -671,14 +681,14 @@ label {
 /* how we work section */
 
 .palenso-how-we-work-container {
-  min-height: 100vh;
+  min-height: 500px;
 }
 
-.palenso-how-we-work-container .palenso-how-we-work-image-container img {
+/* .palenso-how-we-work-container .palenso-how-we-work-image-container img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-}
+} */
 
 .palenso-how-we-work-container .palenso-how-we-work-right-container {
   padding-left: 70px;
