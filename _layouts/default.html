@@ -32,8 +32,12 @@
           // checks if window is scrolled more than 500px, adds/removes solid class
           if ($(this).scrollTop() > 200) {
             $(".navbar").addClass("solid");
+            $(".nav-logo-white").css("display","none");
+            $(".nav-logo-dark").css("display","block");
           } else {
             $(".navbar").removeClass("solid");
+            $(".nav-logo-white").css("display","block");
+            $(".nav-logo-dark").css("display","none");
           }
         });
       });
