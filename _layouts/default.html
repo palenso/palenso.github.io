@@ -48,7 +48,12 @@
         // Remove links that don't actually link to anything
         .not('[href="#"]')
         .not('[href="#0"]')
-        .not('[data-toggle="tab"]')
+        .not('[href="#pills-sap"]')
+        .not('[href="#pills-wad"]')
+        .not('[href="#pills-mad"]')
+        .not('[href="#pills-ueaui"]')
+        .not('[href="#pills-b"]')
+        .not('[href="#pills-sdad"]')
         .click(function(event) {
           // On-page links
           if (
