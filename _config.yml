@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Palenso is an internet software company. We ship beautiful, fully-tested applications for your organisation.
 baseurl: "" # the subpath of your site, e.g. /blog
 keywords: palenso, palenso.com, tech accelerator, accelerator, technology accelerator, software consulting, high performance apps, internet software consulting, django, react.js, reactjs, golang, vuejs, vue.js, rust lang, mobile apps
-url: "palenso.com." # the base hostname & protocol for your site, e.g. http://example.com
+url: "palenso.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
 
