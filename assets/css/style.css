@@ -21,6 +21,10 @@ body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
 }
+p {
+  padding: 0px;
+  margin: 0px;
+}
 
 .form-container {
   background-image: url(../images/contact-background.svg);
